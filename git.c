@@ -4,6 +4,7 @@ a main(void)
 void  main(void)
 {
 	daw
+	dwadwad	
    printf("focal finger is on!\n");
    printf("focal finger is on!\n");
    printf("focal finger is on!\n");
