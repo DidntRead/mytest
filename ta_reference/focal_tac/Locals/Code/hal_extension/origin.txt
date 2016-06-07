@@ -1,0 +1,6 @@
+
+Modified version from origin at:
+
+git@10.0.0.63:sw/linux/driver/touch_hybrid (fetch)
+188cad54143821ac117dd4b942a40de8a032a0de
+

@@ -1,0 +1,7 @@
+#ifndef __DRFOCALALI_H__
+#define __DRFOCALALI_H__
+
+#define FOCAL_VERSION 0x150b
+#define FOCAL_AUTHENTICATOR_VERSION 0x612
+
+#endif // __DRFOCALALI_H__
