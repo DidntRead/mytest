@@ -1,0 +1,71 @@
+MODE = Creating Trusted Application/Driver from ELF
+
+###### ELF Header ######
+Maschine Class                   = ELFCLASS32 (32-bit)
+Maschine Data                    = ELFDATA2LSB (Little endian)
+Header version                   = EV_CURRENT (Current version)
+File Type                        = ET_EXEC (2: Executable)
+Entry Addr.                      = 0x2a3ed
+Program header offset            = 0x34
+Program header entry size        = 32
+Program header number            = 2
+Section header offset            = 0x184f34
+Section header entry size        = 40
+Section header number            = 19
+Section header string index      = 16
+
+###### Program Header ######
+Type		Offset		VirtAddr	FileSize	MemSize		Flags		Allign
+UNKNOWN		0x4b9e4		0x4b9e4		8		8		R		4
+
+###### Program Header ######
+Type		Offset		VirtAddr	FileSize	MemSize		Flags		Allign
+LOAD		0x1000		0x1000		314520		1189080		RWE		32768
+
+###### Section Header ######
+Name			Type	Flags	Addr		Offset		Size		Link	Info	Align	Entry Size
+                	0	0	0x0		0x0		0		0	0	0	0
+.text           	1	6	0x1000		0x1000		305632		0	0	8	0
+.init           	1	6	0x4b9e0		0x4b9e0		2		0	0	2	0
+.ARM.exidx      	1879048193	130	0x4b9e4		0x4b9e4		8		1	0	4	0
+.data           	1	3	0x4d000		0x4d000		3224		0	0	8	0
+.bss            	8	3	0x4dc98		0x4dc98		874560		0	0	8	0
+.debug_info     	1	0	0x0		0x4dc98		448712		0	0	1	0
+.debug_abbrev   	1	0	0x0		0xbb560		55176		0	0	1	0
+.debug_loc      	1	0	0x0		0xc8ce8		477945		0	0	1	0
+.debug_aranges  	1	0	0x0		0x13d7e1		8640		0	0	1	0
+.debug_ranges   	1	0	0x0		0x13f9a1		37216		0	0	1	0
+.debug_line     	1	0	0x0		0x148b01		115064		0	0	1	0
+.debug_str      	1	48	0x0		0x164c79		72904		0	0	1	1
+.debug_frame    	1	0	0x0		0x176944		34492		0	0	4	0
+.debug_macinfo  	1	0	0x0		0x17f000		21900		0	0	1	0
+.debug_pubnames 	1	0	0x0		0x18458c		2277		0	0	1	0
+.shstrtab       	3	0	0x0		0x184e71		194		0	0	1	0
+.symtab         	2	0	0x0		0x18522c		43168		18	2057	4	16
+.strtab         	3	0	0x0		0x18facc		26110		0	0	1	0
+
+###### Trustlet header: ######
+Magic                            = MCLF
+Version                          = 2.5
+Flags                            = New layout
+MemType                          = external
+Service type                     = System Trustlet
+Service Type                     = System Trustlet
+NumberOfInstances                = 1
+UUID                             = 04010000000000000000000000000000
+DriverID                         = 0
+NumberOfThreads                  = 1
+CodeAddr                         = 0x1000
+CodeLength                       = 305634
+DataAddr                         = 0x4D000
+DataLength                       = 3224
+BssLength                        = 874560
+Entry Addr.                      = 0x2A3ED
+Interface Version                = 0.0
+permittedSuid                    = ffffffffffffffff0000000000000000
+GPLevel                          = 0
+attestationOffset                = 0
+textHeaderVersion                = 2.5
+textHeaderLen                    = 40
+InitHeapSize                     = 12582912
+MaxHeapSize                      = 16777216
