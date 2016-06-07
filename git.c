@@ -16,5 +16,5 @@ int main(void)
 	
    printf("focal finger is off!\n");
    printf("focal finger is off!\n");
-   printf("1focal finger is off!\n");
+   printf("focal finger is offdaw wad!\n");
 }
