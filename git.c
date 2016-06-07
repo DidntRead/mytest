@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 a main(void)
-a main(void)
-a main(void)
+void  main(void)
 {
 
    printf("focal finger is on!\n");
