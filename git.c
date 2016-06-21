@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+12
 a main(void)
 void  main(void)
 {
